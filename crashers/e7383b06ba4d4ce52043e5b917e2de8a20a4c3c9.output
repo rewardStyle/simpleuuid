@@ -1,0 +1,10 @@
+panic: encoding/hex: invalid byte: U+0009
+
+goroutine 1 [running]:
+github.com/rewardStyle/simpleuuid.FuzzNewString(0x4010000, 0x20, 0x20, 0x4)
+	/Users/dancompton/go/src/github.com/rewardStyle/simpleuuid/fuzz.go:53 +0x6da
+go-fuzz-dep.Main(0xc00008af38, 0x3, 0x3)
+	go-fuzz-dep/main.go:36 +0x1ad
+main.main()
+	github.com/rewardStyle/simpleuuid/go.fuzz.main/main.go:19 +0x72
+exit status 2

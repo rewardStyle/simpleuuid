@@ -1,0 +1,4 @@
+panic: encoding/hex: invalid byte: U+007D '}'
+github.com/rewardStyle/simpleuuid.FuzzNewString
+go-fuzz-dep.Main
+main.main

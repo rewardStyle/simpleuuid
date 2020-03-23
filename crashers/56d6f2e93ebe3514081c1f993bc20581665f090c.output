@@ -1,0 +1,10 @@
+panic: mismatched UUID length
+
+goroutine 1 [running]:
+github.com/rewardStyle/simpleuuid.FuzzNewTime(0x4010000, 0x18, 0x18, 0x3)
+	/Users/dancompton/go/src/github.com/rewardStyle/simpleuuid/fuzz.go:19 +0x954
+go-fuzz-dep.Main(0xc0000bff38, 0x3, 0x3)
+	go-fuzz-dep/main.go:36 +0x1ad
+main.main()
+	github.com/rewardStyle/simpleuuid/go.fuzz.main/main.go:19 +0x72
+exit status 2

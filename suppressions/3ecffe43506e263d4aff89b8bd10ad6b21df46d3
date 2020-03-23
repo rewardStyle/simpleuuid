@@ -1,0 +1,4 @@
+panic: Variant should be 0x4
+github.com/rewardStyle/simpleuuid.FuzzTestNewBytesURLString
+go-fuzz-dep.Main
+main.main

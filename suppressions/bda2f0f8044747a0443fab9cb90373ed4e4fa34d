@@ -1,0 +1,4 @@
+panic: mismatched UUID length
+github.com/rewardStyle/simpleuuid.FuzzNewTime
+go-fuzz-dep.Main
+main.main
